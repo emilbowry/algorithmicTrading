@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
-from fourier import displayfourier
+from fourier import displayfourier, fourier
+from lowpass import butter_lowpass_filter
 
 data=pd.read_csv("EURUSD.csv")
 
@@ -11,7 +12,7 @@ d1 = data.head(N)
 
 
 d1.plot()
-plt.show()
+#plt.show()
 
 startDate = d1.at[0,"Date Time"]
 endDate=d1.at[N-1,"Date Time"]
@@ -27,6 +28,7 @@ samplerate=N/delta
 
 print(delta)
 
+xf,yf = fourier(d1["Value"], samplerate)
 
-
-displayfourier(d1["Value"], samplerate)
+#displayfourier(d1["Value"], samplerate)
+butter_lowpass_filter(yf, 2, samplerate, 2, xf)

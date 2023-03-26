@@ -5,12 +5,15 @@ import scipy.stats as stat
 
 import matplotlib.pyplot as plt
 
-
-def displayfourier(data, sampleRate):
+def fourier(data, sampleRate):
    data = stat.zscore(data)
    data = np.array(data)
    xf = fftfreq(data.size, sampleRate)
    yf = fft(data)
+   return(yf,xf)
+
+
+def displayfourier(xf,yf):
 
    plt.plot(xf,yf)
    plt.show()
