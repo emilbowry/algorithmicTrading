@@ -4,7 +4,7 @@ I have created this resource for two primary reasons:
 
 ## Reason 1
 
-To provide an easy-to-read and understandable introduction to basic algorithms and tools for algorithmic programming, covering a wide range of interesting and useful topics. Similar to the resources hosted on my previous blog, like my "Introduction to Quantum Computing". 
+To provide an easy-to-read and understandable introduction to basic algorithms and tools for algorithmic programming, covering a wide range of interesting and useful topics. Similar to the resources hosted on my previous blog, like my "Introduction to Quantum Computing".  https://github.com/emilbowry/algorithmicTrading/blob/main/QChtmlIncomplete.md
 
 ## Reason 2
 
