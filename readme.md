@@ -57,11 +57,13 @@ The final structure of the programming application section is still currently de
 1. Python Algorithms and tools
 2. MQL5 tools and template implementations
 
-# Python Algorithms and tools
+# Algorithms and Tools Section
 
 The structure has not been fully decided as there is currently a lot of cross-over of methods between my current sections.
 
 I intend to cover Section 1 as follows:
+
+## Algorithms
 
 1. Classification algorithms: 
     - k-means Clustering
@@ -138,10 +140,11 @@ I intend to cover Section 1 as follows:
     - Pairs Trading
     - Deep Hedging
 
-### MQL5 tools and template implementations
+## MQL5 tools and template implementations
 
 1. Trading Agent Entity
 2. Export Data Script
 
-In development: GOLD/USD vs Gold ETFs
+### In development:
+3. GOLD/USD vs Gold ETFs
 
