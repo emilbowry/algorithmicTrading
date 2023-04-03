@@ -21,7 +21,6 @@ def fourierTransform(data, samplerate):
     yf = fft(data)
 
 
-
     def getTrace(xf=xf, yf=yf):
 
         trace1 = go.Scatter(

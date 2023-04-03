@@ -14,10 +14,11 @@ import scipy
 from scipy import signal, stats
 from plotly.subplots import make_subplots
 
-from fourier import fourierTransform
-from lowpass import lowpass
-from naivefourfilter import naiveFilter
-from dominantPeriod import domFreqWave
+from FourierTransforms.fourier import fourierTransform
+from FourierTransforms.dominantPeriod import domFreqWave
+from LowPassFilter.lowpass import lowpass
+from LowPassFilter.naivefourfilter import naiveFilter
+
 
 fig = make_subplots(rows=2, cols=2)
 

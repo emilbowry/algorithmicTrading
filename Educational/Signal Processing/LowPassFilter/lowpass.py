@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import scipy
 from scipy import signal, stats
-from sincFunc import h
+from FourierTransforms.sincFunc import h
 
 def lowpass(data,f,b=0.08):
     cuttOffFreq=(1/(60*2)) #1/5min freq

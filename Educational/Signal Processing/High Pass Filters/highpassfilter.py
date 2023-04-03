@@ -9,7 +9,7 @@ import scipy
 from scipy import signal, stats
 
 
-from sincFunc import h
+from FourierTransforms.sincFunc import h
 
 def highPass(data,fc,b=0):
     cutOff=round((1/(15*60*60)),28) #1/15min freq
