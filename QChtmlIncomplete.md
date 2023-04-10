@@ -200,7 +200,7 @@ $$&Hcirc;|1&rang; = \frac{1}{\sqrt{2}}(|0&rang; - |1&rang;)$$
 </p>
 </div>
 <p>Going back to Part I, a linear transformation can be defined over the whole space if it is defined over the base vectors. This means we can calculate what this does to any vector in the vector space representing qubits.</p>
-<p>A double implementation of Hadamard gate is the same as the Identity, that is, the Hadamard gate is its own inverse. For example, on |0&rang; transforms it to |s&rang;, a second transforms it back to |0&rang;, proof is trivial and left as exercise for reader.</p>
+<p>A double implementation of Hadamard gate is the same as the Identity, that is, the Hadamard gate is its own inverse. For example, on |0&rang; transforms it to |s&rang;, a second transforms it back to |0&rang;, proof is trivial and left as exercise for reader ;) .</p>
 <p>To put a whole set of qubits into the uniform position requires applying Hadamard to each first we will define function &Hcirc;<sub>i</sub>:</p>
 <div class="centre">
     <p>&Hcirc;<sub>i</sub> applies &Hcirc;<sub>n</sub> to the i<sup>th</sup> qubit of a system</p>
